@@ -1,4 +1,4 @@
-name: Public PR Checker
+- name: Public PR Checker
 on:
   pull_request_target: # This is the DANGEROUS trigger
     types: [opened]

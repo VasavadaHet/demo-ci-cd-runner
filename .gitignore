@@ -1,0 +1,8 @@
+actions-runner/
+*.tar.gz
+_diag/
+_work/
+.credentials*
+.runner
+actions-runner/
+*.tar.gz
